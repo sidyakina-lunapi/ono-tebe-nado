@@ -1,9 +1,9 @@
  
-.body{
+.body {
     display: flex;
 }
 
-.header{
+.header {
     display: grid;
     align-items: center;
     justify-items: center;
@@ -11,7 +11,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.header__links-list{
+.header__links-list { 
     display: flex;
     gap: 0 11%;
     position: relative;
@@ -22,17 +22,17 @@
     white-space: nowrap;
 }
 
-.header__links-list-item{
+.header__links-list-item {
     list-style: none;
 }
 
-.header__links-list-item2{
+.header__links-list-item2 {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
 
-.header__logo{
+.header__logo {
     display: block;
     position: relative;
     left: 2px;
@@ -40,7 +40,7 @@
     width: 37%;
 }
 
-.contacts{  
+.contacts {  
     list-style: none;
     font-size: 112%;
     line-height: 125%;
@@ -52,7 +52,7 @@
     right: 2px;
 }
 
-.conacts_number{
+.conacts_number {
     text-decoration: underline;
     text-decoration-thickness: 0.7px;
     text-underline-offset: 4px;
@@ -62,24 +62,24 @@ address {
     font-style: normal;
 }
 
-.cover{
+.cover {
     display: flex;
-    height: 126vh;
-    width: 182.5vh;
+    height: 757px;
+    width: 1100px;
     background-image: url(/images/cover.jpg);
     background-position: center;
     background-size: cover;
     z-index: -1;
 }
 
-.overlay{
+.overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
 
-.cover__title{
+.cover__title {
     display: flex;
     color: white;
     text-transform: uppercase;
@@ -88,32 +88,32 @@ address {
     letter-spacing: 30px;
 }
 
-.aligned-text{
+.aligned-text {
     display: block;
     position: relative;
     left: 50px;
     top: 162.5px;
 }
 
-.aligned-text_center{
+.aligned-text_center {
     display: block;
     position: relative;
     right: 39.5px;
     top: 290px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     display: block;
     position: relative;
     right: 166px;
     top: 411.5px;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 60px;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     height: 95.5vh;
     color: white;
@@ -124,13 +124,13 @@ address {
     gap: 34px;
 }
 
-.cover__description-text{
+.cover__description-text {
     word-spacing: 18px;
     position: relative;
     left: 20px;
 }
 
-.bet-button{
+.bet-button {
     text-transform: uppercase;
     position: relative;
     top: 12px;
@@ -139,13 +139,13 @@ address {
     border: 1px solid rgb(255, 255, 255);
 }
 
-.lots__heading{
+.lots__heading {
     text-transform: uppercase;
     font-size: 250%;
     margin: 175px 0 25px 65px ;
 }
 
-.lots__card-list{
+.lots__card-list { 
     display: flex;
     list-style: none;
     gap: 26.5px;
@@ -153,13 +153,13 @@ address {
     color: white;
 }
 
-.card-link{
+.card-link {
     display: block;
     width: 334px;
     height: 563px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -168,23 +168,24 @@ address {
     flex-grow: 1;
 }
 
-.card_type_film{
+.card_type_film {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_type_book{
+.card_type_book {
     background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
 
-.article{
+.article {
     display: flex;
     flex-direction: column;
 }
-.card__title{
+
+.card__title {
     width: 80%;
     font-size: 22px;
     text-transform: uppercase;
@@ -192,7 +193,7 @@ address {
     margin-top: 16%;
 }
 
-.card__text{
+.card__text {
     height: 100%;
     margin-left: 40px;
     margin-right: 38px;
@@ -206,7 +207,7 @@ address {
     line-height: 120%;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     position: relative;
     text-decoration: underline;
     text-underline-offset: 3.9px;
@@ -215,7 +216,8 @@ address {
     top: 35px;
     left: 65px;
 }
-.about__column{
+
+.about__column {
     margin-top: 215px;
     margin-right: 25px;
     margin-left: 70px;
@@ -223,7 +225,7 @@ address {
     gap: 7.2%;
 }
 
-.about__logo{
+.about__logo {
     display: flex;
     background-color: black;
     width: 240px;
@@ -233,44 +235,44 @@ address {
     flex-shrink: 0;
 }
 
-.about__logo-image{
+.about__logo-image {
     width: 148px;
     margin-left: 47px;
 }
 
-.about__text_div{
+.about__text_div {
     display: flex;
     flex-direction: column;
     gap: 101px;
 }
 
-.about__title{
+.about__title {
     margin-top: 100px;
     text-transform: uppercase;
     font-size: 252%;
 }
 
-.about__text{
+.about__text {
     font-size: 126%;
 }
 
-.paragraph{
+.paragraph {
     display: block;
     margin-top: 4.4%;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-around;
     gap: 9%;
     margin-top: 18%;
 }
 
-.contacts_footer{
+.contacts_footer {
     position: relative;
 }
 
-.footer__menu{
+.footer__menu {
     font-size: 112%;
     text-align: center;
     position: relative;
@@ -278,11 +280,11 @@ address {
     left: 22px;
 }
 
-.footer__links-list-item{
+.footer__links-list-item {
     list-style: none;
 }
 
-.footer__social-list{
+.footer__social-list {
     display: flex;
     gap: 51.5px;
     position: relative;
@@ -291,17 +293,17 @@ address {
     text-decoration: overline;
 }
 
-.footer__social-link{
+.footer__social-link {
     display: block;
     width: 48px;
     font-size: 150%;
 }
 
-.footer__social-list-item{
+.footer__social-list-item { 
     list-style: none;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: underline;
     text-underline-offset: 4px;
 }

@@ -17,7 +17,7 @@ a {
     height: 293px;
 }
 
-.header__links-list { 
+.header__links-list {
     display: flex;
     gap: 33px;
     font-size: 18px;
@@ -42,7 +42,7 @@ a {
     margin: 0 195px 0 43px;
 }
 
-.contacts {  
+.contacts {
     list-style: none;
     font-size: 18px;
     line-height: 24.3px;

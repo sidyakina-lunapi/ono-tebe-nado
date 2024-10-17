@@ -1,10 +1,10 @@
-button { 
-    padding: 0; 
-    border: none; 
-    font: inherit; 
-    color: inherit; 
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
     background-color: transparent;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 a {
@@ -147,7 +147,7 @@ address {
     margin: 25px 63px;
 }
 
-.lots__card-list { 
+.lots__card-list {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
@@ -280,7 +280,7 @@ address {
     width: 48px;
 }
 
-.footer__social-list-item { 
+.footer__social-list-item {
     list-style: none;
 }
 

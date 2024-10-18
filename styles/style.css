@@ -71,7 +71,6 @@
     justify-content: space-around;
     letter-spacing: 30px;
     margin: 165px 50px 85px 50px;
-    height: 59vh;
 }
 .aligned-text {
     display: block;
@@ -101,18 +100,19 @@
 
 .cover__description {
     display: flex;
-    height: 25vh;
+    padding-bottom: 92px;
     color: white;
     justify-content: space-around;
     align-items: center;
     text-transform: uppercase;
     font-size: 3.65vh;
+    position: relative;
+    top: 40px;
 }
 
 .cover__description-text {
     word-spacing: 19px;
     font-size: 22px;
-    height: 4.6vh;
     position: relative;
     left: 25px;
 }

@@ -13,11 +13,11 @@
     <header class="header">
       <nav>
         <ul class="header__links-list">
-          <li class="header__links-list-item"><a href="#"> главная</a></li>
-          <li class="header__links-list-item2">
-            <a href="#">посмотреть лоты</a>
+          <li class="header__links-list-item"><a href="#" class ="header__no-underline"> главная</a></li>
+          <li>
+            <a href="#" class = "header__underline ">посмотреть лоты</a>
           </li>
-          <li class="header__links-list-item2"><a href="#">об аукционe</a></li>
+          <li class="header__links-list-item-underline"><a href="#">об аукционe</a></li>
         </ul>
       </nav>
       <a href="#" class="header__logo">
@@ -27,28 +27,24 @@
           alt="логотип"
         />
       </a>
-      <ul class="contacts">
-        <li class="conacts_number">
+      <address class="contacts">
+        <div class="conacts_number">
           <a href="tel:+90000000">+9 999 555 5555</a>
-        </li>
-        <li class="conacts_number">
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-          <address>
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </address>
-        </li>
-      </ul>
+      </div>
+        <p>
+          наб. Принсенграхт 263-<br/>
+          265, Амстердам
+        </p>
+      </address>
     </header>
     <main>
-      <div class="cover">
+      <section class="cover">
         <div class="overlay">
           <h1 class="cover__title">
-            <span class="aligned-text_left">О<span class="letter-spacing">НО</span></span>
-            <span class="aligned-text_center">ТЕ<span class="letter-spacing">БЕ</span></span>
-            <span class="aligned-text_right"><span class="letter-spacing">Н</span>АД<span  class="zero-letter-spacing">О</span></span>
+            <span class="aligned-text aligned-text_left">О<span class="letter-spacing">НО</span></span>
+            <span class="aligned-text aligned-text_center">ТЕ<span class="letter-spacing">БЕ</span></span>
+            <span class="aligned-text aligned-text_right"><span class="letter-spacing">Н</span>АД<span  class="no-letter-spacing">О</span></span>
           </h1>
           <div class="cover__description">
             <p class="cover__description-text">
@@ -57,7 +53,7 @@
             <button class="bet-button">Сделать ставку</button>
           </div>
         </div>
-      </div>
+      </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
@@ -141,30 +137,26 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="contacts">
-        <li class="conacts_number">
+      <address class="contacts">
+        <div class="conacts_number">
           <a href="tel:+90000000">+9 999 555 5555</a>
-        </li>
-        <li class="conacts_number">
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li>
-          <address>
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </address>
-        </li>
-      </ul>
-      <nav class="footer__menu">
-        <ul class="footer__menu-list">
+        </div>
+        <p></p>
+          наб. Принсенграхт 263-<br/>
+          265, Амстердам
+        </p>
+      </address>
+      <nav>
+        <ul class="footer__links-list">
           <li class="footer__links-list-item">
-            <a href="#"> главная</a>
+            <a href="#" class ="footer__no-underline"> главная</a>
           </li>
-          <li class="footer__links-list-item footer__menu-link_active">
-            <a href="#">посмотреть лоты</a>
+          <li class="footer__links-list-item">
+            <a href="#" class="footer__underline">посмотреть лоты</a>
           </li>
-          <li class="footer__links-list-item  footer__menu-link_active">
-            <a href="#">об аукционe</a>
+          <li class="footer__links-list-item">
+            <a href="#" class="footer__underline">об аукционe</a>
           </li>
         </ul>
       </nav>

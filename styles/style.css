@@ -102,8 +102,6 @@
 .cover__description {
     display: flex;
     position: relative;
-    height: 26vh;
-    margin-top: 8.5%;
     color: white;
     justify-content: space-between;
     align-items: center;

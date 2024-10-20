@@ -82,7 +82,7 @@
 }
 
 .aligned-text_center {
-    padding-top: 10px;
+    padding-top: 14px;
     text-align: center;
 }
 
@@ -102,7 +102,8 @@
 .cover__description {
     display: flex;
     position: relative;
-    height: 150px;
+    height: 26vh;
+    margin-top: 8.5%;
     color: white;
     justify-content: space-between;
     align-items: center;

@@ -43,7 +43,9 @@
 }
 
 .cover {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
     max-height: 757px;
     height: 126vh;
@@ -51,7 +53,7 @@
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
-    padding: 165px 50px 0 50px;
+    padding: 165px 50px 60px 50px;
 }
 
 .overlay {

@@ -13,14 +13,14 @@
     <header class="header">
       <nav>
         <ul class="header__links-list">
-          <li class="header__links-list-item">
-            <a href="#" class ="inactive"> главная</a>
+          <li class="header__links-list-item-no-bullit">
+            <a href="#" class ="header__link-active">главная</a>
           </li>
           <li>
-            <a href="#" class ="active">посмотреть лоты</a>
+            <a href="#" class ="header__link">посмотреть лоты</a>
           </li>
           <li>
-            <a href="#" class ="active">об аукционe</a>
+            <a href="#" class ="header__link">об аукционe</a>
           </li>
         </ul>
       </nav>
@@ -60,47 +60,53 @@
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
-          <li>
-            <a href="#" class="card card-link card_type_film article">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Фильм режиссёра, который бросил киношколу
-              </h3>
-              <p class="card__text">
-                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                ставка, если бы вы не знали, что режиссёр — Пол Томас
-                Андерсон?
-              </p>
+          <li class="card card_type_film">
+            <a href="#" class="card-link">
+              <article class="article">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Фильм режиссёра, который бросил киношколу
+                </h3>
+                <p class="card__text">
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
+                  ставка, если бы вы не знали, что режиссёр — Пол Томас
+                  Андерсон?
+                </p>
+              </article>
             </a>
           </li>
-          <li>
-            <a href="" class="card card-link card_type_book article">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Книга, где описан один скучный день из жизни рекламного агента
-              </h3>
-              <p class="card__text">
-                Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                с переходами на древнеанглийский. В ней одновременно
-                рассказывается о 16 июня 1904 года и об истории литературы,
-                начиная с античных времён. И это всё накладывается на
-                эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                Джеймса Джойса?
-              </p>
+          <li class="card card_type_book">
+            <a href="" class="card-link">
+              <article class="article">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Книга, где описан один скучный день из жизни рекламного агента
+                </h3>
+                <p class="card__text">
+                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
+                  с переходами на древнеанглийский. В ней одновременно
+                  рассказывается о 16 июня 1904 года и об истории литературы,
+                  начиная с античных времён. И это всё накладывается на
+                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
+                  Джеймса Джойса?
+                </p>
+              </article>
             </a>
           </li>
-          <li>
-            <a href="#" class="card card-link card_type_picture article">
-              <div class="overlay"></div>
-              <h3 class="card__title">
-                Картина, которую повторит даже 5-летний сын маминой подруги
-              </h3>
-              <p class="card__text">
-                Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                котиков... Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?
-              </p>
+          <li class="card card_type_picture">
+            <a href="#" class="card-link">
+              <article class="article">
+                <div class="overlay"></div>
+                <h3 class="card__title">
+                  Картина, которую повторит даже 5-летний сын маминой подруги
+                </h3>
+                <p class="card__text">
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
+                  котиков... Сколько бы вы на такое поставили, если бы не знали,
+                  что это — одна из революционных работ Кандинского?
+                </p>
+              </article>
             </a>
           </li>
         </ul>
@@ -142,7 +148,6 @@
           <a href="tel:+90000000">+9 999 555 5555</a>
           <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         </div>
-        <p></p>
         <p>
           наб. Принсенграхт 263-<br/>
           265, Амстердам
@@ -151,31 +156,31 @@
       <nav>
         <ul class="footer__links-list">
           <li class="footer__links-list-item">
-            <a href="#" class ="inactive"> главная</a>
+            <a href="#" class ="footer__link-active"> главная</a>
           </li>
           <li class="footer__links-list-item">
-            <a href="#" class="active">посмотреть лоты</a>
+            <a href="#" class="footer__link">посмотреть лоты</a>
           </li>
           <li class="footer__links-list-item">
-            <a href="#" class="active">об аукционe</a>
+            <a href="#" class="footer__link">об аукционe</a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="#"
-            ><img class="footer__social-img" src="images/yt.svg" alt="ссылка на ютуб"
-          /></a>
+          <a href="#">
+            <img class="footer__social-img" src="images/yt.svg" alt="ссылка на ютуб"/>
+          </a>
+        </li>
+        <li class="footer__social-list-item footer__social-list-separator">
+          <a href="#">
+            <img class="footer__social-img" src="images/vk.svg" alt="ссылка на вк"/>
+          </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="#"
-            ><img class="footer__social-img" src="images/vk.svg" alt="ссылка на вк"
-          /></a>
-        </li>
-        <li class="footer__social-list-item">
-          <a href="#"
-            ><img class="footer__social-img" src="images/pinterest.svg" alt="ссылка на пинтерест"
-          /></a>
+          <a href="#">
+            <img class="footer__social-img" src="images/pinterest.svg" alt="ссылка на пинтерест"/>
+          </a>
         </li>
       </ul>
     </footer>
